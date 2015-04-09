@@ -1,0 +1,115 @@
+
+body {
+    background-color: white;
+    margin: 0 0;
+    width: 100%;
+}
+a {    text-decoration: none;
+    margin: 0 0;
+    padding: 0 0;
+}
+#container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0 0;
+    width: 100%;
+    height: 8%;
+    background-color: rgba(47, 54, 59, .8);
+
+}
+#header p {    
+    top: 30%;
+}
+#name {
+    padding-left: 3%;
+    margin: 0 0;
+    position: relative;
+    text-align: left;
+    font-size: 3em;
+    font-family: 'josefin sans', sans-serif;
+    color: #939994;
+    float: left;
+}
+#date {
+    padding-right: 3%;
+    margin: 0 0;
+    position: relative;
+    text-align: right;
+    font-size: 3em;
+    font-family: 'josefin sans', sans-serif;
+    color: #939994;
+    float: right;
+}
+
+#open-image {
+    width: 100%;
+    height: 45%;
+    background-color: green;
+    background-image: url(images/home3.jpg);
+    background-size: cover;
+}
+
+#about-page {
+    width: 100%;
+    height: 30%;
+    background-image: url(images/photos-web.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+#bridal-page {
+    width: 100%;
+    height: 30%;
+    background-image: url(images/woods_web2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#info-page {
+    width: 100%;
+    height: 30%;
+    background-image: url(images/lean-web.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#photos-page {
+    width: 100%;
+    height: 30%;
+    background-image: url(images/street-web.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.headline {
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    font-size: 7em;
+    font-family: allura, sans-serif;
+    color: white;
+    margin: 0 0;
+    padding-top: 170px;
+    vertical-align:bottom;
+/*    background-color: red;*/
+}
+.page-default {
+    min-height: 450px;
+    min-width: 100%;
+
+}
+
+.open-default {
+    min-height: 700px;
+    min-width: 100%;
+
+}
